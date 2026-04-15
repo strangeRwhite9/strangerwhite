@@ -1,0 +1,63 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="180" y1="120" x2="1400" y2="2300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090708"/>
+      <stop offset="1" stop-color="#151316"/>
+    </linearGradient>
+    <radialGradient id="haloA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1110 420) rotate(90) scale(420)">
+      <stop stop-color="#F05032" stop-opacity="0.66"/>
+      <stop offset="1" stop-color="#F05032" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(520 1020) rotate(90) scale(360)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="240" y1="1700" x2="1360" y2="2280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="78"/></filter>
+  </defs>
+  <rect width="1600" height="2400" rx="96" fill="url(#bg)"/>
+  <rect x="56" y="56" width="1488" height="2288" rx="84" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect x="92" y="130" width="284" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <circle cx="146" cy="153" r="7" fill="#F05032"/>
+  <rect x="168" y="147" width="116" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.38"/>
+  <rect x="1080" y="146" width="154" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.10"/>
+  <rect x="1256" y="146" width="172" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="1110" cy="420" r="420" fill="url(#haloA)" filter="url(#blur)"/>
+  <circle cx="520" cy="1020" r="360" fill="url(#haloB)" filter="url(#blur)"/>
+  <g opacity="0.1" stroke="#FFFFFF" stroke-width="2">
+    <path d="M180 320H1420"/><path d="M180 700H1420"/><path d="M180 1080H1420"/><path d="M180 1460H1420"/><path d="M180 1840H1420"/>
+    <path d="M320 220V2180"/><path d="M640 220V2180"/><path d="M960 220V2180"/><path d="M1280 220V2180"/>
+  </g>
+  <g transform="translate(228 320)">
+    <rect x="0" y="90" width="1144" height="1028" rx="64" fill="#0F1116" fill-opacity="0.82" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="64" y="154" width="248" height="34" rx="17" fill="#F05032" fill-opacity="0.40"/>
+    <rect x="64" y="228" width="468" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.18"/>
+    <rect x="64" y="266" width="332" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.08"/>
+    <rect x="84" y="334" width="976" height="684" rx="42" fill="#0A0D12" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <g transform="translate(176 484)">
+      <rect x="0" y="36" width="250" height="250" rx="36" transform="rotate(-45 0 36)" fill="#F05032"/>
+      <circle cx="90" cy="126" r="22" fill="#FFFFFF"/>
+      <circle cx="228" cy="264" r="22" fill="#FFFFFF"/>
+      <circle cx="228" cy="126" r="22" fill="#FFFFFF"/>
+      <path d="M90 126 228 264M90 126 228 126" stroke="#F05032" stroke-width="30" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(610 470)">
+      <circle cx="186" cy="182" r="176" fill="#0B0D12" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="8"/>
+      <path d="M126 110 156 78 186 128 216 78 246 110" fill="#FFFFFF"/>
+      <path d="M186 130c-54 0-98 44-98 98 0 18 4 34 12 48l36-18v54c14 10 32 16 50 18l8 36 8-36c18-2 36-8 50-18v-54l36 18c8-14 12-30 12-48 0-54-44-98-98-98h-18Z" fill="#FFFFFF"/>
+      <circle cx="156" cy="192" r="8" fill="#0B0D12"/>
+      <circle cx="216" cy="192" r="8" fill="#0B0D12"/>
+      <path d="M170 222c10 8 22 8 32 0" stroke="#0B0D12" stroke-width="8" stroke-linecap="round"/>
+      <path d="M278 286c24 18 40 28 62 34-22 2-44-2-66-12Z" fill="#FFFFFF"/>
+    </g>
+  </g>
+  <rect x="104" y="1700" width="1392" height="540" rx="52" fill="#050505" fill-opacity="0.76"/>
+  <rect x="104" y="1700" width="1392" height="540" rx="52" fill="url(#glass)"/>
+  <rect x="152" y="1784" width="360" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.10"/>
+  <rect x="152" y="1822" width="250" height="18" rx="9" fill="#F05032" fill-opacity="0.52"/>
+  <rect x="1160" y="1786" width="208" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.10"/>
+  <rect x="1160" y="1822" width="280" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.06"/>
+</svg>

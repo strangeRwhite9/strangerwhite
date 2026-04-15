@@ -1,0 +1,9 @@
+.chrome*/
+.edge-headless/
+analysis-crops/
+frames/
+frames_all/
+frames_rt/
+.codex
+Thumbs.db
+.DS_Store
